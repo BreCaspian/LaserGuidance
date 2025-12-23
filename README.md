@@ -33,8 +33,10 @@
 ## 硬件
 
 <p align="center">
-  <img src="reference/hardware.png" width="900" alt="hardware">
+  <img src="reference/hardware.png" width="900" alt="hardware"><br>
+  <em>大恒工业相机 MER-139-210U3C + LIVOX MID-70</em>
 </p>
+
 
 ---
 ## 目录结构
