@@ -1,4 +1,12 @@
 # LaserGuidance
+---
+
+
+<p align="center">
+  <img src="reference/Horizon.png" width="300" alt="Horizon Team">
+</p>
+
+
 
 该工作是为 ROBOMASTER-2026 华北理工大学 Horizon 战队 飞镖制导中激光测距部分 以及 英雄机器人吊射基地激光测距部分 所做的第二代探索工作。
 
