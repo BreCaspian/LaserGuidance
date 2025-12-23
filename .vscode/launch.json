@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/yao/TEST/laser-guidence/src/src",
-      "program": "/home/yao/TEST/laser-guidence/src/src/build/Debug/outDebug",
+      "cwd": "/home/yao/TEST/laser-guidance/src/src",
+      "program": "/home/yao/TEST/laser-guidance/src/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
