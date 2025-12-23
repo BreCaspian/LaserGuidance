@@ -39,6 +39,17 @@ laser-guidance/
 
 ## 构建与运行
 
+环境要求
+
+- Ubuntu 22.04
+
+- ROS 2 Humble
+
+- Livox Mid-70 驱动（发布 sensor_msgs/PointCloud2，通常为 /livox/lidar）
+
+- 工业相机驱动（发布 sensor_msgs/Image）
+---
+
 1. 安装依赖：
    ```bash
    sudo apt install ros-humble-pcl-ros ros-humble-pcl-conversions
