@@ -1,6 +1,4 @@
 # LaserGuidance
----
-
 
 <p align="center">
   <img src="reference/Horizon.png" width="300" alt="Horizon Team">
