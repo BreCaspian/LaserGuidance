@@ -43,10 +43,17 @@ laser-guidance/
    ```bash
    sudo apt install ros-humble-pcl-ros ros-humble-pcl-conversions
    ```
-2. 编译：
+2. 构建 & 编译：
    ```bash
-   colcon build --packages-select laser_guidance
-   source install/setup.bash
+   source /opt/ros/humble/setup.bash
+   
+   mkdir -p ~/laser_ws/src && cd ~/laser_ws/src
+   
+   git clone https://github.com/BreCaspian/LaserGuidance.git
+   
+   cd ~/laser_ws && rosdep install --from-paths src --ignore-src -r -y
+   
+   colcon build --packages-select laser_guidance && source install/setup.bash
    ```
 3. 运行（默认加载安装目录的参数/标定）：
    ```bash
