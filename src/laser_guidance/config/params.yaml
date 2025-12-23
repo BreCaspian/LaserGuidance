@@ -1,0 +1,44 @@
+laser_guidance:
+  ros__parameters:
+    # 点云累积时间窗口（秒）
+    accumulate_time_s: 2.0
+    # 传感器话题
+    image_topic: "/image_raw"
+    lidar_topic: "/livox/lidar"
+    # HSV 检测范围
+    green_h: 40.0
+    green_s: 80.0
+    green_v: 120.0
+    green_h_max: 90.0
+    green_s_max: 255.0
+    green_v_max: 255.0
+    # 调试图像 ROI
+    debug_roi_half_size_px: 80
+    debug_roi_output_size_px: 256
+    # 点云筛选范围（米）
+    min_depth_m: 2.0
+    max_depth_m: 8.0
+    # 图像 ROI 半径（像素）
+    roi_radius_px: 80
+    # 平面合法性阈值
+    min_plane_normal_z: 0.4
+    min_normal_alignment: 0.5
+    plane_distance_threshold: 0.04
+    # 距离曲线显示
+    plot_window_enabled: true
+    plot_history_size: 200
+    plot_smoothing_alpha: 0.3
+    # 卡尔曼滤波（3D 位置）
+    kalman_enabled: true
+    kalman_process_noise: 1.0
+    kalman_initial_position_var: 0.1
+    kalman_initial_velocity_var: 1.0
+    kalman_sigma_min: 0.03
+    kalman_sigma_max: 0.2
+    kalman_quality_inliers_lo: 80
+    kalman_quality_inliers_hi: 400
+    kalman_quality_cos_lo: 0.25
+    # EMA 平滑系数：越大越跟随新值，越小越平滑
+    kalman_quality_alpha: 0.3
+    # NIS 门控阈值（3D）：7.815≈95%，11.345≈99%
+    kalman_gate_nis: 11.3

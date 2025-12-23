@@ -1,0 +1,57 @@
+{
+  "camera": {
+    "camera_model": "plumb_bob",
+    "distortion_coeffs": [
+      -0.06033446820774841,
+      0.9109649887427801,
+      0.0005711348690384457,
+      -0.00135738319718246,
+      0.0
+    ],
+    "intrinsics": [
+      2506.3282850376445,
+      2507.378510578292,
+      628.0499117402735,
+      521.6286659975834
+    ]
+  },
+  "meta": {
+    "bag_names": [
+      "my_bag_1.bag",
+      "my_bag_10.bag",
+      "my_bag_2.bag",
+      "my_bag_3.bag",
+      "my_bag_4.bag",
+      "my_bag_5.bag",
+      "my_bag_6.bag",
+      "my_bag_7.bag",
+      "my_bag_8.bag",
+      "my_bag_9.bag"
+    ],
+    "camera_info_topic": "/galaxy_camera/camera_info",
+    "data_path": "/tmp/input_bags",
+    "image_topic": "/galaxy_camera/image_raw",
+    "intensity_channel": "intensity",
+    "points_topic": "/livox/lidar"
+  },
+  "results": {
+    "T_lidar_camera": [
+      -0.11555873416523577,
+      -0.13413096821444562,
+      0.18402157809014488,
+      0.5066962798424857,
+      -0.49812337525518763,
+      0.49579023786825444,
+      -0.4993235654890574
+    ],
+    "init_T_lidar_camera": [
+      0.06886987388134003,
+      -0.1517011523246765,
+      0.28113365173339844,
+      0.516732665266202,
+      -0.4989923783318045,
+      0.4927791471455697,
+      -0.49108317392240475
+    ]
+  }
+}

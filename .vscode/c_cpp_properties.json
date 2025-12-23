@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include",
+        "/usr/include/x86_64-linux-gnu"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64",
+
+      // —> cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON 添加CMakeLists.txt位置
+      // 例如 : 00:19 😀 yao@robot:~/TEST/laser-guidence/build$ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ~/TEST/laser-guidence/src/dart_guide_locator
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+    }
+  ]
+}
