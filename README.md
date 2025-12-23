@@ -96,6 +96,24 @@ laser-guidance/
 
 > 修改 YAML **不需要重新编译**，重新运行节点即可生效。
 
+4. 运行示例
+
+  ```bash
+  [INFO] [1766479150.288065745] [laser_guidance]: >>> Target Localized! <<< Pos [6.716, -0.005, -0.200] m | Distance: 6.719 m
+  [INFO] [1766479150.320516040] [laser_guidance]: >>> Target Localized! <<< Pos [6.716, -0.003, -0.197] m | Distance: 6.719 m
+  [INFO] [1766479150.356939728] [laser_guidance]: >>> Target Localized! <<< Pos [6.717, -0.002, -0.195] m | Distance: 6.719 m
+  [INFO] [1766479150.387875985] [laser_guidance]: >>> Target Localized! <<< Pos [6.715, -0.005, -0.202] m | Distance: 6.718 m
+  [INFO] [1766479150.454713133] [laser_guidance]: >>> Target Localized! <<< Pos [6.715, -0.004, -0.199] m | Distance: 6.718 m
+  [INFO] [1766479150.554453565] [laser_guidance]: >>> Target Localized! <<< Pos [6.716, -0.002, -0.195] m | Distance: 6.719 m
+  [INFO] [1766479150.587345279] [laser_guidance]: >>> Target Localized! <<< Pos [6.717, -0.002, -0.194] m | Distance: 6.720 m
+  [INFO] [1766479150.653704314] [laser_guidance]: >>> Target Localized! <<< Pos [6.717, -0.001, -0.192] m | Distance: 6.720 m
+  [INFO] [1766479150.686944324] [laser_guidance]: >>> Target Localized! <<< Pos [6.717, -0.001, -0.191] m | Distance: 6.720 m
+  [INFO] [1766479150.719691365] [laser_guidance]: >>> Target Localized! <<< Pos [6.715, -0.005, -0.201] m | Distance: 6.718 m
+  [INFO] [1766479150.754757261] [laser_guidance]: >>> Target Localized! <<< Pos [6.716, -0.004, -0.199] m | Distance: 6.719 m
+```
+一切正常的情况下终端会产生如上输出，此时便可以打开 RVIZ2 接收相关调试话题进行调试优化。
+
+
 ---
 
 ## 主要参数（参考 `config/params.yaml`）
