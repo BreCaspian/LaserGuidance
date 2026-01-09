@@ -96,6 +96,8 @@ laser-guidance/
    colcon build --packages-select laser_guidance && source install/setup.bash
    ```
 3. 运行（默认加载安装目录的参数/标定）：
+
+    *提前驱动工业相机与激光雷达*
    ```bash
    ros2 run laser_guidance locator_node --ros-args \
      --params-file install/laser_guidance/share/laser_guidance/config/params.yaml
